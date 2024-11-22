@@ -1,0 +1,69 @@
+{{ block title }}
+    景観イメージについての調査
+{{ endblock }}
+
+{{ block content }}
+<div>
+    <p>
+    以下の質問について最もあてはまる（最も近い）選択肢を選んでください。  
+    </p> 
+</div>
+{{ formfield 'image1' }}
+
+<div>
+<img src="/static/02osaka1.jpeg" width="700px" />
+</div>
+
+<div>
+{{ formfield 'know1' }}
+{{ formfield 'image2' }}
+</div>
+
+<div>
+<img src="/static/chihaya1gen.jpg" width="700px" />
+</div>
+
+<div>
+{{ formfield 'know2' }}
+{{ formfield 'image3' }}
+</div>
+
+<div>
+<img src="/static/hatihusimt1.jpg" width="700px" />
+</div>
+
+<div>
+{{ formfield 'know3' }}
+{{ formfield 'image4' }}
+</div>
+
+<div>
+<img src="/static/osakacity-5gen.jpg" width="700px" />
+</div>
+
+<div>
+{{ formfield 'know4' }}
+{{ formfield 'image5' }}
+</div>
+
+<div>
+<img src="/static/publicdomainq-0039063tmm.jpg" width="700px" />
+</div>
+
+<div>
+{{ formfield 'know5' }}
+{{ formfield 'image6' }}
+</div>
+
+<div>
+<img src="/static/1kashiwara1.jpg" width="700px" />
+</div>
+
+<div>
+{{ formfield 'know6' }}
+</div>
+
+    {{ next_button }}
+{{ endblock }}
+
+
